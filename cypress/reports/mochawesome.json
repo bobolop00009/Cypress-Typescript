@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-27T14:50:45.846Z",
+    "end": "2023-02-27T14:50:50.476Z",
+    "duration": 4630,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d7131839-109c-46fb-a235-66ba5bd81ba2",
+      "title": "",
+      "fullFile": "cypress/integration/cart.ts",
+      "file": "cypress/integration/cart.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "95e603c6-cccb-45b3-9be6-7de7433db8ab",
+          "title": "Cart Feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User can add products to cart",
+              "fullTitle": "Cart Feature User can add products to cart",
+              "timedOut": null,
+              "duration": 1717,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardPage.addToCartSauceLabsBackpack();\ndashboardPage.addToCartSauceLabsBoltTshirt();\ndashboardPage.addToCartSauceLabsOnesie();\ndashboardPage.clickCartIcon();\ncartPage.verifyListProductInCart();\ncy.then(function () {\n    expect(this.lblNameItem4Dashboard).to.equal(this.lblNameItem4Cart);\n    expect(this.lblPriceItem4Dashboard).to.equal(this.lblPriceItem4Cart);\n    expect(this.lblNameItem1Dashboard).to.equal(this.lblNameItem1Cart);\n    expect(this.lblPriceItem1Dashboard).to.equal(this.lblPriceItem1Cart);\n    expect(this.lblNameItem2Dashboard).to.equal(this.lblNameItem2Cart);\n    expect(this.lblPriceItem2Dashboard).to.equal(this.lblPriceItem2Cart);\n});",
+              "err": {},
+              "uuid": "60ccf842-0453-400d-81d9-83ac0e7e3afe",
+              "parentUUID": "95e603c6-cccb-45b3-9be6-7de7433db8ab",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can remove products from cart",
+              "fullTitle": "Cart Feature User can remove products from cart",
+              "timedOut": null,
+              "duration": 1445,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardPage.addToCartSauceLabsBackpack();\ndashboardPage.addToCartSauceLabsBoltTshirt();\ndashboardPage.addToCartSauceLabsOnesie();\ndashboardPage.clickCartIcon();\ncartPage.removeProductFromCart();\ncartPage.verifyEmptyCart();",
+              "err": {},
+              "uuid": "98e123dd-e970-4599-b3b4-a3546a552b0e",
+              "parentUUID": "95e603c6-cccb-45b3-9be6-7de7433db8ab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "60ccf842-0453-400d-81d9-83ac0e7e3afe",
+            "98e123dd-e970-4599-b3b4-a3546a552b0e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3162,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "chart": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
