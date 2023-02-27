@@ -24,12 +24,10 @@ npx cypress open
 ```
 Test Result
 
-![login](https://user-images.githubusercontent.com/17744851/220660232-d0e8f15e-ad0f-4656-92d2-c1d9caa59481.png)
+![image](https://user-images.githubusercontent.com/124502981/221598474-3a48f042-06fd-4510-8cb6-1a17330b4e6d.png)
 
-![cart](https://user-images.githubusercontent.com/17744851/220660255-6b4f8e41-23f7-4f92-98e6-2b0ae0932e46.png)
+![image](https://user-images.githubusercontent.com/124502981/221598607-cf30046d-0611-4d88-92ad-ecfb466d34b3.png)
 
-![checkout](https://user-images.githubusercontent.com/17744851/220660270-3458f654-092a-43c2-88f8-3f7f1dcc681f.png)
+![image](https://user-images.githubusercontent.com/124502981/221598565-0fe4969d-c200-4cb0-badc-6af19dd3599f.png)
 
-![result](https://user-images.githubusercontent.com/17744851/220660277-4d48b130-a7ed-4fd7-8e7e-a0ff172775e4.png)
-
-### Thank You
+![image](https://user-images.githubusercontent.com/124502981/221598690-615bf4a3-f8eb-4db3-a0f7-5ebc68ecf588.png)
